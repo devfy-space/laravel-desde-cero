@@ -1,7 +1,7 @@
 # laravel-desde-cero
 ![Curso de Laravel - Introduccion](https://i.imgur.com/JUD1nnF.jpg)
 
-# Curso de Laravel 🚀 
+# Curso de Laravel 🚀 👋🤟💻
 
 ## Lista de contenidos
 
@@ -20,8 +20,9 @@
 13. **[Laravel Relationships]()**
 14. **[Realización de CRUD]()**
 15. **[CRUD]()**
-16. **[Laravel Auth]()**
+16. **[Laravel Auth]()** 🔐
 17. **[Manejo de Sesiones]()**
 18. **[Middlewares]()**
 20. **[Seeders]()**
-21. **[Deploy]()**
+21. **[Laravel Email]()** 📧
+22. **[Deploy]()**
