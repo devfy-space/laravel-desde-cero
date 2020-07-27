@@ -8,12 +8,12 @@
 1.  **[Presentacion e Introducción]()**
 2.  **[¿Que es Laravel? Introducción al framework]()**
 3.  **[Instalación y Configuración - Windows y Linux]()** 🔧⚙️
-4.  **[Laravel Routes]()**🗺️
+4.  **[Laravel Routes]()** 🗺️
 5.  **[Controladores]()** 🕹️
 6.  **[Resource Controllers]()**
 7.  **[Vistas]()** 📝
-8.  **[Laravel Artisan]()**⚒️
-9.  **[Bases de datos]()**💾
+8.  **[Laravel Artisan]()** ⚒️
+9.  **[Bases de datos]()** 💾
 10. **[Migraciones]()** 💽
 11. **[Modelos]()**
 12. **[Query Builder]()**
