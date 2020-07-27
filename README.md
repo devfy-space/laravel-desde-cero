@@ -25,4 +25,5 @@
 18. **[Middlewares]()**
 19. **[Seeders]()**
 20. **[Laravel Email]()** 📧
+21. **[Creación de Blog]()**
 21. **[Deploy]()**
