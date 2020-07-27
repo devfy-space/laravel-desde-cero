@@ -19,11 +19,10 @@
 12. **[Query Builder]()**
 13. **[Eloquent]()**
 14. **[Laravel Relationships]()**
-15. **[Realización de CRUD]()**
-16. **[CRUD]()**
-17. **[Laravel Auth]()** 🔐
-18. **[Manejo de Sesiones]()**
-19. **[Middlewares]()**
-21. **[Seeders]()**
-22. **[Laravel Email]()** 📧
-23. **[Deploy]()**
+15. **[CRUD]()**
+16. **[Laravel Auth]()** 🔐
+17. **[Manejo de Sesiones]()**
+18. **[Middlewares]()**
+19. **[Seeders]()**
+20. **[Laravel Email]()** 📧
+21. **[Deploy]()**
