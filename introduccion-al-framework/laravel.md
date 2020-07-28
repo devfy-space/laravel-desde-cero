@@ -48,6 +48,18 @@ Fuente: [Laravel no es MVC](https://www.linkedin.com/pulse/why-laravel-mvc-frame
 
   Fuente: [Proyectos que usan Symfony](https://symfony.com/projects/laravel)
 
+  Sin embargo si hay ciertas diferencias entre las que pueden destacar:
+
+| Diferencia      | Laravel                                 | Symfony                                                      |
+| --------------- | --------------------------------------- | ------------------------------------------------------------ |
+| ORM             | Eloquent                                | Doctrine                                                     |
+| Template Engine | Blade                                   | Twig                                                         |
+| Databases       | MySQL, PostgreSQL, SQLite, SQLServer    | MySQL, Oracle, Drizzle, SQLServer, PostgreSQL, SQLite, SAP Sybase SQL Anywhere |
+| Ventajas        | Desarrollo rapido y facil de configurar | Framework Robusto y mas usado en entornos enterprise         |
+
+
+  Fuente: [Stackshare - Diferencias entre laravel y symfony](https://stackshare.io/stackups/laravel-vs-symfony#:~:text=According%20to%20the%20StackShare%20community,stacks%20and%20277%20developer%20stacks.)
+
   ## Arquitectura del framework Laravel
    Laravel cuenta con una arquitectura bastante organizada y lo suficientemente compleja para atender las necesidades de las aplicaciones mas demandantes 
    y con alta complejidad. Su nucleo se distribuye en Rutas, Vistas, Eloquent ORM, Controladores, Middlewares, Modelos y Migraciones, Requests y Responses.
