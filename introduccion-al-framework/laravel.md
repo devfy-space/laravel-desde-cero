@@ -49,5 +49,17 @@ Fuente: [Laravel no es MVC](https://www.linkedin.com/pulse/why-laravel-mvc-frame
   Fuente: [Proyectos que usan Symfony](https://symfony.com/projects/laravel)
 
   ## Arquitectura del framework Laravel
+   Laravel cuenta con una arquitectura bastante organizada y lo suficientemente compleja para atender las necesidades de las aplicaciones mas demandantes 
+   y con alta complejidad. Su nucleo se distribuye en Rutas, Vistas, Eloquent ORM, Controladores, Middlewares, Modelos y Migraciones, Requests y Responses.
 
-  ![laravel architecture](https://hackernoon.com/photos/R8aLhmiN8rUgojf5QE8E0wAqhU73-0mkw29ls)
+ ![laravel architecture](https://hackernoon.com/photos/R8aLhmiN8rUgojf5QE8E0wAqhU73-0mkw29ls)
+
+  También cuenta con un sistema de manejo de dependencias o un dependecy management, esto quiere decir que se puede integrar funcionalidades a tu aplicacion 
+  facilmente sin la necesidad de crearlas desde cero. Puedes crear tambien tus propios packages o instalar dependencias ya existentes a traves de composer.
+
+  Laravel posee un completo y complejo sistema de autenticación. Un ORM(Object-relational mapping) o una interfaz orientada objetos que nos permite facilmente 
+  interactuar con nuestra base de datos. 
+
+  También Posee una CLI nativa del framework llamada Artisan, para gestionar la creación de seeders, migraciones, controladores y modelos. El manejo de cache 
+  de rutas y vistas, y la capacidad de levantar un servidor en desarrollo para tu app. Igualmente te brinda la capacidad de crear test unitarios usando la libreria
+  PHPUnit.
