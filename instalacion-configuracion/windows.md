@@ -109,3 +109,5 @@ Una vez creado nuestro site, es necesario modificar los dns de nuestro sistema l
 
 
 Finalmente se procede a reiniciar el servidor de apache de nuestro xampp o wampp e ir al navegador y acceder a nuestro sitio web.
+
+![laravel vhost apache](https://i.ibb.co/pP0Xwgn/image.png)
