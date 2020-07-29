@@ -79,11 +79,11 @@ Ejemplo:
 ```bash
 <VirtualHost *:80>
     ServerAdmin  soporte@misitioweb.io
-    DocumentRoot "D:\aplicaciones\www\misitioweb.com"
+    DocumentRoot "D:\aplicaciones\www\misitioweb.com\public"
     ServerName   misitioweb
     ServerAlias  www.misitioweb.com
 
-    <Directory "D:\aplicaciones\www\misitioweb.com">
+    <Directory "D:\aplicaciones\www\misitioweb.com\public">
         Options -Indexes +FollowSymLinks
         Require all granted
         AllowOverride All
