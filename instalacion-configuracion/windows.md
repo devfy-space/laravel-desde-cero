@@ -64,3 +64,48 @@ php artisan serve
 
 Una vez levantado el servidor de desarrollo vamos a nuestro navegador en la dirección [localhost:8000](https://localhost:8000)
 
+![laravel - php artisan serve](https://i.ibb.co/q0GXLkP/image.png)
+
+
+
+## Creación de virtual host en apache
+
+Laravel esta efectivamente configurado en nuestra máquina, ahora crearemos un virtual site en nuestro servidor local para poder acceder a nuestra app desde el navegador con una url personalizada y que incluso puede sobreescribir dominios publicos de internet.
+
+Primero procedemos a ir a nuestra carpeta **apache** en nuestro xampp o wampp, la ruta al archivo de host virtual es **carpeta-instalacion\apache\conf\extra\httpd-vhosts.conf**:
+
+Ejemplo:
+
+```bash
+<VirtualHost *:80>
+    ServerAdmin  soporte@misitioweb.io
+    DocumentRoot "D:\aplicaciones\www\misitioweb.com"
+    ServerName   misitioweb
+    ServerAlias  www.misitioweb.com
+
+    <Directory "D:\aplicaciones\www\misitioweb.com">
+        Options -Indexes +FollowSymLinks
+        Require all granted
+        AllowOverride All
+    </Directory>
+
+    ErrorLog    "logs/misitioweb-error.log"
+    CustomLog   "logs/misitioweb-access.log" common
+</VirtualHost>
+```
+
+En mi caso escribi lo siguiente:
+
+![apache virtual host](https://i.ibb.co/DwXN1xR/image.png)
+
+Una vez creado nuestro site, es necesario modificar los dns de nuestro sistema local, los cuales estan ubicados en **C:\Windows\System32\drivers\etc**, proceder a editar el archivo y agregar las siguientes lineas
+
+```bash
+// Curso de Laravel
+
+127.0.0.1 laravel-desde-cero.io
+```
+
+
+
+Finalmente se procede a reiniciar el servidor de apache de nuestro xampp o wampp e ir al navegador y acceder a nuestro sitio web.
