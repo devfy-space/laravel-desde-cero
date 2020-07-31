@@ -116,8 +116,6 @@ Una vez levantado el servidor de desarrollo vamos a nuestro navegador en la dire
 
 ![laravel - php artisan serve](https://i.ibb.co/q0GXLkP/image.png)
 
-
-
 ## Creación de virtual host en apache
 
 Laravel esta efectivamente configurado en nuestra máquina, ahora crearemos un virtual site en nuestro servidor local para poder acceder a nuestra app desde el navegador con una url personalizada y que incluso puede sobreescribir dominios publicos de internet.
@@ -165,3 +163,5 @@ Una vez creado nuestro site, es necesario modificar los dns de nuestro sistema l
 Finalmente se procede a reiniciar el servidor de apache de nuestro xampp o wampp e ir al navegador y acceder a nuestro sitio web.
 
 ![laravel vhost apache](https://i.ibb.co/pP0Xwgn/image.png)
+
+Fin... Happy Coding 🤓😎

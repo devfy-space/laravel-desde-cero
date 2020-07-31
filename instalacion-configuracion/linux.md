@@ -160,3 +160,13 @@ Una vez que tengamos instalado tanto composer como apache, procedemos a instalar
 ```bash
 $ composer create-project --prefer-dist laravel/laravel yourapp-name
 ```
+
+ Recuerda siempre tener cargados los modulos de php anteriormente mencionados 
+
+Finalmente puedes usar laravel con el siguiente comando:
+
+```bash
+$ php artisan serve
+```
+
+![laravel vhost apache](https://i.ibb.co/pP0Xwgn/image.png)
