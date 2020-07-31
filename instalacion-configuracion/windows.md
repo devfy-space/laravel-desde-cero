@@ -32,7 +32,59 @@ Ahora entrando al archivo **php.ini** vemos que extensiones tenemos cargadas, si
 
 ![vscode](https://i.ibb.co/BHk2bft/vscode.jpg)
 
+También puedes verificar los modulos de php actualmente instalados con el siguiente comando:
 
+```bash
+$ php -m
+```
+
+ A mi, me muestra el siguiente resultado:
+
+```bash
+output
+
+[PHP Modules]
+bcmath
+bz2
+calendar
+Core
+ctype
+curl
+date
+dom
+exif
+fileinfo
+filter
+ftp
+gd
+gettext
+hash
+iconv
+json
+libxml
+mbstring
+mysqli
+mysqlnd
+openssl
+pcre
+PDO
+pdo_mysql
+pdo_sqlite
+Phar
+readline
+Reflection
+session
+SimpleXML
+SPL
+standard
+tokenizer
+wddx
+xml
+xmlreader
+xmlwriter
+zip
+zlib
+```
 
 Una vez que todo esto esta OK, procedemos a instalar laravel.
 
