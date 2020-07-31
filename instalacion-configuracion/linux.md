@@ -153,14 +153,10 @@ Mas información en:
 
 [Instalación de Apache 2 - digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-es)
 
-<<<<<<< HEAD
-=======
 ## Instalación de Laravel con composer
 
 Una vez que tengamos instalado tanto composer como apache, procedemos a instalar laravel en nuestro sistema con el comando:
 
 ```bash
-$ composer create-project --prefer-dist laravel/laravel yourapp-name 
+$ composer create-project --prefer-dist laravel/laravel yourapp-name
 ```
-
->>>>>>> contributions
