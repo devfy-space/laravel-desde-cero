@@ -149,3 +149,7 @@ Una vez instalado, podemos comprobar que apache ya esta activo realizando las si
     $ cd /etc/apache2 && ls
     ```
 
+Mas información en:
+
+[Instalación de Apache 2 - digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-es)
+
