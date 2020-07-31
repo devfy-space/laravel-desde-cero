@@ -1,5 +1,7 @@
 # Curso de Laravel desde cero - Instalación en Linux 💪🧠🔥🔥🔥
 
+![instalacion y configuracion](https://i.ibb.co/kBB9qPV/image.png)
+
 En esta clase te explicaremos como instalar el framework Laravel en tu sistema Linux Ubuntu-like distribution **(Distribución basada en Ubuntu Linux)** llamada Elementary OS. No te preocupes aunque lo hagamos formalmente en esta versión se colocara como hacerlo en otras distribuciones populares de Linux como Arch Linux, Fedora y CentOS.
 
 ## Requisitos para instalar son:
