@@ -1,8 +1,8 @@
-# Curso de Laravel desde cero - Instalación en Linux
+# Curso de Laravel desde cero - Instalación en Linux 💪🧠🔥🔥🔥
 
 En esta clase te explicaremos como instalar el framework Laravel en tu sistema Linux Ubuntu-like distribution **(Distribución basada en Ubuntu Linux)** llamada Elementary OS. No te preocupes aunque lo hagamos formalmente en esta versión se colocara como hacerlo en otras distribuciones populares de Linux como Arch Linux, Fedora y CentOS.
 
-Los requisitos para instalar son:
+## Requisitos para instalar son:
 
 - **PHP >= 7.2.5** como minimo
 - **BCMath PHP Extension**
@@ -161,7 +161,7 @@ Una vez que tengamos instalado tanto composer como apache, procedemos a instalar
 $ composer create-project --prefer-dist laravel/laravel yourapp-name
 ```
 
- Recuerda siempre tener cargados los modulos de php anteriormente mencionados 
+ Recuerda siempre tener cargados los modulos de php anteriormente mencionados, accede pulsando la manito [👆](#Requisitos para instalar son:) 😊.
 
 Finalmente puedes usar laravel con el siguiente comando:
 
@@ -169,4 +169,69 @@ Finalmente puedes usar laravel con el siguiente comando:
 $ php artisan serve
 ```
 
-![laravel vhost apache](https://i.ibb.co/pP0Xwgn/image.png)
+![laravel - php artisan serve](https://i.ibb.co/q0GXLkP/image.png)
+
+Sin embargo, como ya mencionamos antes no utlizaremos este setup para trabajar, sino que nos dirigeremos a nuestro directorio  **_/var/www_** que es el directorio root por defecto que usa apache para localizar nuestros sitios, no importa esto lo puedes cambiar y modificar segun tus necesidades 👌.
+
+Asi que debemos hacer el siguiente comando, tomando en cuenta que ya laravel esta instalado, simplemente moveremos la carpeta:
+
+```bash
+$ cd mv yourapp-name /var/www
+```
+
+###### No olvides darle permisos a toda tu carpeta public y establecer como dueño de ese directorio. Para hacer eso necesitas, ```chmod -R yourapp-name/public && chown -R $USER:$USER /var/www/yourapp-name```
+
+Una vez hecho esta sentencia, nos vamos a nuestro browser y vamos a la siguiente dirección:
+
+```bash
+http://localhost/yourapp-name/public
+```
+
+Esto es feo,  ¿no? 🤔. Nosotros como en la seria anterior,  **[instalación-laravel-windows](https://github.com/devfy-space/laravel-desde-cero/blob/master/instalacion-configuracion/windows.md)** creamos un virtual host en apache para nuestro sitio y utilizamos  el dominio de nuestra preferencia, recuerden, pueden utilizar el nombre que mejor les parezca, obviamente sin violar las reglas de un dominio valido.
+
+Asi que, nos iremos a nuestro directorio apache2, y haremos el setup de nuestra:
+
+ ```bash
+$ cd /etc/apache2/sites-available
+ ```
+
+Luego de eso copiamos el archivo base de configuración a nuestro nuevo site y editarlo:
+
+```bash
+$ sudo cp 000-default.conf yourapp-name.conf && nano yourapp-name.conf
+```
+
+Deberias tener algo similar a esto, obviamente con tus modificaciones a los nombres del sitio, etc.
+
+```bash
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName your_domain
+    ServerAlias www.your_domain
+    DocumentRoot /var/www/your_domain
+    <Directory /var/www/your_domain>
+    	Options -Indexes +FollowSymLinks
+    	Require all granted
+    	AllowOverride All
+    </Directory>
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+
+Una vez creado el vhost es necesario ir otra vez a nuestro bash y correr el comando:
+
+```bash
+$ sudo a2ensite yourapp-name.conf
+```
+
+Ahora, esto no sera suficiente para hacer lo que queremos, necesitamos primero reiniciar nuestro apache.
+
+```bash
+$ sudo systemctl restart apache2
+```
+
+Finalmente puedes acceder en tu navegador a tu nuevo sitio y listo!!. Si te gusto esta guía de instalación, no dudes en suscribirte a nuestro **[canal de youtube](https://bit.ly/30bmtAp)** y dar una manito arriba a este tutorial 👍, te lo agradecería!!❤️😁. 
+
+**[Pulsa aqui para acceder al playlist del curso](https://www.youtube.com/playlist?list=PLc64KFB8u6VSmNoZP1xGcOHlCRgLFNMka)**
+
