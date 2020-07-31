@@ -54,8 +54,6 @@ Tenemos dos opciones para instalar laravel en Windows:
    ```
 
 
-
-
 Finalmente de haber sido instalado todas las dependencias, escribimos el comando:
 
 ```bash
@@ -94,9 +92,13 @@ Ejemplo:
 </VirtualHost>
 ```
 
+Algo importante a tener en cuenta es que laravel protege por defecto la carpeta raiz, asi que para evitar errores **403 forbidden** es necesario añadir al DocumentRoot la carpeta **"public"** para que laravel pueda funcionar correctamente.
+
+
+
 En mi caso escribi lo siguiente:
 
-![apache virtual host](https://i.ibb.co/DwXN1xR/image.png)
+![apache virtual host](https://i.ibb.co/3Rn36t1/image.png)
 
 Una vez creado nuestro site, es necesario modificar los dns de nuestro sistema local, los cuales estan ubicados en **C:\Windows\System32\drivers\etc**, proceder a editar el archivo y agregar las siguientes lineas
 
