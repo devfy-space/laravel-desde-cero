@@ -10,7 +10,7 @@
 3.  **[Instalación y Configuración - Windows y Linux](#Windows)** 🔧⚙️
     1.  **[Windows](https://github.com/devfy-space/laravel-desde-cero/blob/master/instalacion-configuracion/windows.md)**
     2.  **[Linux](https://github.com/yotmanreyes/laravel-desde-cero/blob/master/instalacion-configuracion/linux.md)**
-4.  **[Laravel Routes]()** 🗺️
+4.  **[Laravel Routes](https://github.com/devfy-space/laravel-desde-cero/blob/master/laravel-routes/routes.md)** 🗺️
 5.  **[Controladores]()** 🕹️
 6.  **[Resource Controllers]()**
 7.  **[Vistas]()** 📝
