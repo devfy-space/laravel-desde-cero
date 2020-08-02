@@ -289,3 +289,6 @@ $ php artisan route:list
 
 
 
+## Conclusión
+
+Ya vimos toda la cantidad de cosas que podemos hacer con las rutas de laravel, en posteriores clases estaremos hablando cosas mas avanzadas de routing, como route model binding, middlewares, groups, namespaces, etc.
