@@ -1,5 +1,7 @@
 # Curso de Laravel desde cero - Rutas
 
+![laravel routing](https://i.ibb.co/7j4kWzD/image.png)
+
 En esta guía hablaremos acerca de como crear, manejar y validar rutas con Laravel. El routing o **Enrutamiento** es uno de los aspectos mas fundamentales a la hora de desarrollar aplicaciones ya que nos permite controlar el flujo de peticiones que se realizan a nuestro aplicación y se encarga de decidir que se hará cuando el usuario solicite dicha ruta.
 
 Por ejemplo, ¿Que haremos cuando un **usuario** solicite la ruta  "_/usuarios_" ? . Podemos enviar una vista con todos los usuarios existentes, podemos hacer el output de query a la base de datos en un formato legible como **JSON**, etc. También puede suceder que nuestras rutas no necesite estar actualizando constantemente el estado de nuestra aplicación, sino que solamente pueden devolver una vista estática de la pagina web de tu negocio o sitio web personal. En pocas palabras, se pueden realizar muchas cosas, ¿no?. Ahora, ¿Cómo iniciamos a crear rutas con **laravel**?
