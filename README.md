@@ -13,7 +13,7 @@
 4.  **[Laravel Routes](https://github.com/devfy-space/laravel-desde-cero/blob/master/laravel-routes/routes.md)** 🗺️
 5.  **[Controladores](https://github.com/devfy-space/laravel-desde-cero/blob/master/laravel-controllers/controllers.md)** 🕹️
 6.  **[Resource Controllers]()**
-7.  **[Vistas]()** 📝
+7.  **[Vistas](laravel-vistas/Vistas.md)** 📝
 8.  **[Laravel Artisan]()** ⚒️
 9.  **[Bases de datos]()** 💾
 10.  **[Migraciones]()** 💽
