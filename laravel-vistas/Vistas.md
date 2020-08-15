@@ -77,7 +77,7 @@ Ahora es necesario hacer el retorno de nuestra vista bien sea en un controlador 
    1. Pasando una variable
 
    ```php
-   return view('user', ['name' => 'John'[]);
+   return view('user', ['name' => 'John']);
    ```
 
    2. Pasando un arreglo asociativo de valores
@@ -194,25 +194,22 @@ Ahora es necesario hacer el retorno de nuestra vista bien sea en un controlador 
    Esto lo podemos realizar en nuestro ```AppServiceProvider```, ubicado en la carpeta ``app/Http/Providers``. Aqui el ejemplo:
    
    ```php
-<?php
-   
-   ```
+	<?php
+    namespace App\Providers;
 
-namespace App\Providers;
+   use Illuminate\Support\Facades\View;  // Es necesario añadir el 			Facade de vista
 
-   use Illuminate\Support\Facades\View;  // Es necesario añadir el Facade de vista
-
-class AppServiceProvider extends ServiceProvider
+	class AppServiceProvider extends ServiceProvider
    {
     /**
         * Register any application services.
-                *
-                * @return void
-                        */
-              ​       public function register()
-              ​       {
+        *
+        * @return void
+        */
+       public function register()
+       {
            //
-              ​       }
+       }
 
        /**
         * Bootstrap any application services.
@@ -221,14 +218,16 @@ class AppServiceProvider extends ServiceProvider
         */
        public function boot()
        {
-           View::share('key', 'value'); // Aqui los datos para compartir
-           View::share('langs', ['grapes' => '🍇', 'watermelon' => '🍉', 'banana' => '🍌', 'strawberry' => '🍓']);
+           //
+           View::share('home_title', 'Mi primera app con laravel');
+           View::share('fruits', ['grapes' => '🍇', 'watermelon' => '🍉', 'banana' => '🍌', 'strawberry' => '🍓']);
        }
    }
    ```
-   
+
+
    Y en nuestro archivo ``welcome.blade.php``, escribimos lo siguiente:
-   
+
    ```php
    <!DOCTYPE html>
    <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
