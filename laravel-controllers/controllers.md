@@ -102,7 +102,7 @@ Route::get('user/{id}', 'ShowProfile'); // como vemos no es necesario especifica
 
 
 
-## 6. Controladores de Recursos - Resource Controllers
+## 6. [Controladores de Recursos - Resource Controllers](#resource-controllers)
 
 Laravel tiene la capacidad de generar controladores que utilizan el esquema **REST**, de esa forma ya tenemos la base para realizar nuestro CRUD.
 
