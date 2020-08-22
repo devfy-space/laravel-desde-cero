@@ -16,6 +16,9 @@
 7.  **[Vistas](laravel-vistas/Vistas.md)** 📝
 8.  **[Laravel Artisan](laravel-artisan/Artisan.md)** ⚒️
 9.  **[Bases de datos]()** 💾
+    1. [Introducción basica a las bases de datos]()
+    2. [SGBD y Bases de datos relacionales]()
+    3. [Conectando nuestra DB con Laravel]()
 10.  **[Migraciones]()** 💽
 11.  **[Modelos]()**
 12.  **[Query Builder]()**
