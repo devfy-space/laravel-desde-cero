@@ -1,5 +1,5 @@
 # laravel-desde-cero
-![Curso de Laravel - Introduccion](https://i.imgur.com/JUD1nnF.jpg)
+![Curso de Laravel - Introduccion](./assets/presentacion_curso.jpg)
 
 # Curso de Laravel 🚀👋🤟💻
 
@@ -14,7 +14,7 @@
 5.  **[Controladores](laravel-controllers/controllers.md)** 🕹️
 6.  **[Resource Controllers](laravel-controllers/controllers.md#resource-controllers)**
 7.  **[Vistas](laravel-vistas/Vistas.md)** 📝
-8.  **[Laravel Artisan]()** ⚒️
+8.  **[Laravel Artisan](laravel-artisan/Artisan.md)** ⚒️
 9.  **[Bases de datos]()** 💾
 10.  **[Migraciones]()** 💽
 11.  **[Modelos]()**
