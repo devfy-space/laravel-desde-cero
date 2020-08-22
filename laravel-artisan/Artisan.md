@@ -1,6 +1,6 @@
 # Curso de Laravel desde cero - **Artisan CLI**
 
-![](D:\cursos\laravel-desde-cero\assets\clase_07.jpg)
+![Artisan cli](../assets/clase_07.jpg)
 
 La mayoría de frameworks y herramientas como Angular, Vue js, Django, Symfony, Webpack, MySQL, etc. Laravel no es la excepción, utiliza una poderosa ***command-line interface*** (CLI), llamada Artisan, la cual permite interactuar con el framework de una forma mas ágil y rapida. 
 
