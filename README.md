@@ -1,5 +1,5 @@
 # laravel-desde-cero
-![Curso de Laravel - Introduccion](https://i.imgur.com/JUD1nnF.jpg)
+![Curso de Laravel - Introduccion](./assets/presentacion_curso.jpg)
 
 # Curso de Laravel 🚀👋🤟💻
 
