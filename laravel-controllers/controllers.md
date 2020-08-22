@@ -102,7 +102,7 @@ Route::get('user/{id}', 'ShowProfile'); // como vemos no es necesario especifica
 
 
 
-## 6. [Controladores de Recursos - Resource Controllers](#resource-controllers)
+## Resource Controllers
 
 Laravel tiene la capacidad de generar controladores que utilizan el esquema **REST**, de esa forma ya tenemos la base para realizar nuestro CRUD.
 
@@ -134,13 +134,13 @@ Route::resource('photos', 'ProductController');
 
 Gracias a la **CLI** nativa de **Laravel**, Artisan, podemos generar el esqueleto o estructura de nuestros controladores, los comandos disponibles son:
 
- 1. Controlador basico
+ 1. Controlador básico
 
     ```bash
     $ php artisan make:controller NameController
     ```
 
- 2. Controlador de accion unica
+ 2. Controlador de acción única
 
     ```bash
     $ php artisan make:controller NameController --invokable
@@ -159,17 +159,3 @@ Gracias a la **CLI** nativa de **Laravel**, Artisan, podemos generar el esquelet
      ```
 
      
-
-## 8.Cacheo de Rutas
-
-Laravel nos permite guardar en cache nuestras rutas, lo que optimiza el rendimiento de respuesta de nuestros controladores, en algunos casos se obtienen mejoras 100x mas rapidas. Tenemos disponibles dos comandos:
-
-```bash
-$ php artisan route:cache
-```
-
-Si desea borrar el cache es necesario utilizar:
-
-```bash
-$ php artisan route:clear
-```
